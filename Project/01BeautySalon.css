@@ -1,60 +1,248 @@
-*{
-    margin:0;
+/* Universal class Start*/
+* {
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
     background-color: #FFFBF3;
 }
+
+/* Font src Start */
 @font-face {
-    font-family:"RPoppins";
+    font-family: "r-poppins";
     src: url(./Img/Font/Poppins-Regular.ttf);
 }
+
 @font-face {
-    font-family:"MPoppins";
+    font-family: "m-poppins";
     src: url(./Img/Font/Poppins-Medium.ttf);
 }
-@font-face {
-    font-family:"SMPoppins";
-    src: url(./Img/Font/Poppins-SemiBold.ttf);
-}
+/* Font src End */
 
-.container{
-    width:1200px;
-    margin:0 auto;
+/* Container & Col Start */
+.container {
+    width: 1200px;
+    margin: 0 auto;
 }
-.col100{
-    width:100%;
+.col20{
+    width:20%;
 }
-.row{
+.col40{
+    width:40%;
+}
+.col100 {
+    width: 100%;
+}
+/* Container & Col End */
+
+/* Useful class Start */
+.row {
     display: flex;
     flex-wrap: wrap;
 }
-.posab{
+
+.posab {
     position: absolute;
 }
-.posrel{
-    position:relative;
+
+.posrel {
+    position: relative;
 }
-.align{
+
+.align {
     align-items: center;
 }
-.jst{
+
+.jst {
     justify-content: space-between;
 }
-.justify{
+
+.justify {
     justify-content: center;
 }
-.nav{
+.txt-right{
+    text-align: right;
+}
+/* Useful class End */
+
+/*----- Background color & color class Start----- */
+/* White color Start */
+.bg-white {
+    background-color: #FFFBF3;
+}
+
+.white {
+    color: #FFFBF3;
+}
+
+/* Black color Start */
+.bg-black {
+    background-color: #000;
+}
+
+.black {
+    color: #000;
+}
+
+/* Purple color Start */
+.bg-purple {
+    background-color: #F2E8E7;
+}
+
+.purle {
+    color: #F2E8E7;
+}
+
+/* Peach color Start */
+.bg-peach {
+    background-color: #CC9361;
+}
+
+.peach {
+    color: #CC9361;
+}
+
+/* ----- Background color & color class End -----*/
+
+/* -----Font class start------- */
+.m-poppins{
+    font-family: "m-poppins";
+}
+
+.r-poppins{
+    font-family: "r-poppins";
+}
+/* -----Font class End------- */
+
+
+/* -----Font style  start -----*/
+.one {
+    font-size: 4.375rem;
+    font-weight: 500;
+    font-family: "m-poppins";
+}
+
+.two {
+    font-size: 3.125rem;
+    font-weight: 500;
+    font-family: "m-poppins";
+}
+
+.three {
+    font-size: 1.875rem;
+    font-weight: 500;    
+    font-family: "m-poppins";
+}
+
+.four {
+    font-size: 1.125rem;
+    font-weight: 500;    
+    font-family: "m-poppins";
+}
+
+.five {
+    font-size: 1.125rem;
+    font-weight: 400;     
+    font-family: "r-poppins";
+}
+.six {
+    font-size: 1rem;
+    font-weight: 400;    
+    font-family: "r-poppins";
+}
+/* ----- Font style  End ----- */
+
+/* Sec1 Class Start */
+.Logo {
+    width: 15%;
+}
+
+.Logo img {
+    width: 100%;
+    display: block;
+}
+
+.nav li {
     display: inline-block;
+    list-style: none;
 }
-a{
+
+a {
+    text-decoration: none;
+    color: black;
+    margin: 10px;
+}
+
+.active a {
+    color: #CC9361;
+}
+
+.login svg {
+    width: 20px;
+    /* height: 27.582px; */
+    transform: rotate(4.604deg);
+}
+
+.login button {
+    border-radius: 5px;
+    margin: 0 15px;
+}
+
+.btnJoin1 {
+    border:2px solid #CC9361;
+    padding: 10px 30px;
+}
+
+.btnJoin1:hover{
+    background-color:#CC9361;
+    color:#FFFBF3;
+}
+/* Sec1 Class End */
+
+/* sec2 Class Start */
+  /* .swiper {
+    width: 100%;
+  } */
+  .swiper-slide {
     text-align: center;
-    list-style: none;   
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .swiper-slide  img {
+    display: block;
+    width: 100%;
+    object-fit: cover;
+  }
+  /* .b1{
+    background-image: url(./Img/banner1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position: cover;
+  } */
+/* sec2 Class End */
+
+/* Sec3 Class Start */
+.sec1L{
+    width:60%;
 }
-.navbar ul li{
-    color: var(--000000100, #000);
-    font-family: Poppins;
-    font-size: 1.5rem;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
+.sec1L img{ 
+    width:100%;
+    display: block;
+} 
+.light{
+    opacity: 0.5 ;
+    color:#0000004b ;
+transform: rotatex('90degs');}
+.aboutus{
+    width: 15%;
+    border-bottom: 2px solid #CC9361;
+    margin-left: auto;
 }
+.lorem{
+    width:70% ;
+    margin-left: auto;
+    padding:10px 0;
+}
+/* Sec3 Class End */
