@@ -59,8 +59,17 @@
 .justify {
     justify-content: center;
 }
+.txt-center{
+    text-align: center;
+}
 .txt-right{
     text-align: right;
+}
+.margin-left{
+    margin-left: auto;
+}
+.margintb{
+    margin:20px 0;
 }
 /* Useful class End */
 
@@ -234,15 +243,23 @@ a {
 .light{
     opacity: 0.5 ;
     color:#0000004b ;
-transform: rotatex('90degs');}
-.aboutus{
-    width: 15%;
-    border-bottom: 2px solid #CC9361;
-    margin-left: auto;
-}
+    transform: rotatex('90degs');}
 .lorem{
     width:70% ;
     margin-left: auto;
     padding:10px 0;
 }
+/* [--------this class is for bottom border---------] */
+.bottomline{
+    width: 4rem ;
+    border-bottom: 2px solid #CC9361;
+}
+
 /* Sec3 Class End */
+
+/* sec4 class start */
+.ourserborder{
+    margin:0 auto;
+}
+/* sec4 class End */
+
