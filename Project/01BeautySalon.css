@@ -16,6 +16,7 @@
     font-family: "m-poppins";
     src: url(./Img/Font/Poppins-Medium.ttf);
 }
+
 /* Font src End */
 
 /* Container & Col Start */
@@ -23,15 +24,20 @@
     width: 1200px;
     margin: 0 auto;
 }
-.col20{
-    width:20%;
+
+.col20 {
+    width: 20%;
 }
-.col40{
-    width:40%;
+.col40 {
+    width: 40%;
+}
+.col50{
+    width:50%;
 }
 .col100 {
     width: 100%;
 }
+
 /* Container & Col End */
 
 /* Useful class Start */
@@ -59,18 +65,23 @@
 .justify {
     justify-content: center;
 }
-.txt-center{
+
+.txt-center {
     text-align: center;
 }
-.txt-right{
+
+.txt-right {
     text-align: right;
 }
-.margin-left{
+
+.margin-left {
     margin-left: auto;
 }
-.margintb{
-    margin:20px 0;
+
+.margintb {
+    margin: 20px 0;
 }
+
 /* Useful class End */
 
 /*----- Background color & color class Start----- */
@@ -113,13 +124,14 @@
 /* ----- Background color & color class End -----*/
 
 /* -----Font class start------- */
-.m-poppins{
+.m-poppins {
     font-family: "m-poppins";
 }
 
-.r-poppins{
+.r-poppins {
     font-family: "r-poppins";
 }
+
 /* -----Font class End------- */
 
 
@@ -138,26 +150,28 @@
 
 .three {
     font-size: 1.875rem;
-    font-weight: 500;    
+    font-weight: 500;
     font-family: "m-poppins";
 }
 
 .four {
     font-size: 1.125rem;
-    font-weight: 500;    
+    font-weight: 500;
     font-family: "m-poppins";
 }
 
 .five {
     font-size: 1.125rem;
-    font-weight: 400;     
+    font-weight: 400;
     font-family: "r-poppins";
 }
+
 .six {
     font-size: 1rem;
-    font-weight: 400;    
+    font-weight: 400;
     font-family: "r-poppins";
 }
+
 /* ----- Font style  End ----- */
 
 /* Sec1 Class Start */
@@ -197,34 +211,37 @@ a {
 }
 
 .btnJoin1 {
-    border:2px solid #CC9361;
+    border: 2px solid #CC9361;
     padding: 10px 30px;
 }
 
-.btnJoin1:hover{
-    background-color:#CC9361;
-    color:#FFFBF3;
+.btnJoin1:hover {
+    background-color: #CC9361;
+    color: #FFFBF3;
 }
+
 /* Sec1 Class End */
 
 /* sec2 Class Start */
-  /* .swiper {
+/* .swiper {
     width: 100%;
   } */
-  .swiper-slide {
+.swiper-slide {
     text-align: center;
     font-size: 18px;
     background: #fff;
     display: flex;
     justify-content: center;
     align-items: center;
-  }
-  .swiper-slide  img {
+}
+
+.swiper-slide img {
     display: block;
     width: 100%;
     object-fit: cover;
-  }
-  /* .b1{
+}
+
+/* .b1{
     background-image: url(./Img/banner1.png);
     background-position: center;
     background-repeat: no-repeat;
@@ -233,33 +250,53 @@ a {
 /* sec2 Class End */
 
 /* Sec3 Class Start */
-.sec1L{
-    width:60%;
+.sec1L {
+    width: 70%;
 }
-.sec1L img{ 
-    width:100%;
+
+.sec1L img {
+    width: 100%;
     display: block;
-} 
-.light{
-    opacity: 0.5 ;
-    color:#0000004b ;
-    transform: rotatex('90degs');}
-.lorem{
-    width:70% ;
-    margin-left: auto;
-    padding:10px 0;
 }
+
+.light {
+    /* border: 1px solid black; */
+    /* background-color:#F2E8E7; */
+    transform: rotate(90deg);
+    transform-origin: 40% 40%;
+    color: #F2E8E7
+}
+
+.lorem {
+    width: 70%;
+    margin-left: auto;
+    padding: 10px 0;
+}
+
 /* [--------this class is for bottom border---------] */
-.bottomline{
-    width: 4rem ;
+.bottomline {
+    width: 4rem;
     border-bottom: 2px solid #CC9361;
 }
 
 /* Sec3 Class End */
 
 /* sec4 class start */
-.ourserborder{
-    margin:0 auto;
+.ser-mar-tob{
+    margin:20px 0;
+}
+.ourserborder {
+    margin: 0 auto;
+}
+td .stroke {
+    border: 2px solid #000;
+}
+.bookbtn{
+    border:2px solid #CC9361;
+    border-radius: 30px;
+    padding:5px 15px;
+}
+.sec2R img{
+    margin-right: auto;
 }
 /* sec4 class End */
-
