@@ -28,11 +28,16 @@
 .col20 {
     width: 20%;
 }
+
 .col40 {
     width: 40%;
 }
-.col50{
-    width:50%;
+
+.col50 {
+    width: 50%;
+}
+.col80{
+    width:80%;
 }
 .col100 {
     width: 100%;
@@ -95,10 +100,6 @@
 }
 
 /* Black color Start */
-.bg-black {
-    background-color: #000;
-}
-
 .black {
     color: #000;
 }
@@ -282,8 +283,8 @@ a {
 /* Sec3 Class End */
 
 /* sec4 class start */
-.ser-mar-tob{
-    margin:20px 0;
+.ser-mar-tob {
+    margin: 20px 0;
 }
 .ourserborder {
     margin: 0 auto;
@@ -291,12 +292,62 @@ a {
 td .stroke {
     border: 2px solid #000;
 }
-.bookbtn{
-    border:2px solid #CC9361;
-    border-radius: 30px;
-    padding:5px 15px;
+.align-right{
+    align-items: right;
 }
-.sec2R img{
-    margin-right: auto;
+.bookbtn {
+    border: 2px solid #CC9361;
+    border-radius: 30px;
+    padding: 5px 15px;
+}
+
+.sec2R {
+    padding-left: 10px;
 }
 /* sec4 class End */
+
+/* sec5 class Start */
+.box{
+    background-color: #CC9361;
+    color:#F2E8E7;
+    border-radius: 5px;
+}
+.bridalbottom{
+    width: 4rem;
+    border-bottom: 2px solid #F2E8E7;
+}
+.bridal{
+
+}
+
+
+body {
+  background: #eee;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* sec5 class End */
