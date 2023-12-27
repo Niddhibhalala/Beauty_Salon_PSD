@@ -28,11 +28,9 @@
 .col20 {
     width: 20%;
 }
-
 .col40 {
     width: 40%;
 }
-
 .col50 {
     width: 50%;
 }
@@ -83,8 +81,8 @@
     margin-left: auto;
 }
 
-.margintb {
-    margin: 20px 0;
+.paddingtob {
+    padding: 20px 0;
 }
 
 /* Useful class End */
@@ -342,12 +340,19 @@ body {
   justify-content: center;
   align-items: center;
 }
-
 .swiper-slide img {
   display: block;
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
-
 /* sec5 class End */
+
+/* sec6 class Start */
+.exp {
+    width:20%;
+}
+.exp img {
+    width:100%;
+}
+/* sec6 class End */
