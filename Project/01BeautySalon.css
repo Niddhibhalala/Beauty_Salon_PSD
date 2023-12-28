@@ -28,15 +28,19 @@
 .col20 {
     width: 20%;
 }
+
 .col40 {
     width: 40%;
 }
+
 .col50 {
     width: 50%;
 }
-.col80{
-    width:80%;
+
+.col80 {
+    width: 80%;
 }
+
 .col100 {
     width: 100%;
 }
@@ -107,7 +111,7 @@
     background-color: #F2E8E7;
 }
 
-.purle {
+.purple {
     color: #F2E8E7;
 }
 
@@ -250,7 +254,7 @@ a {
 
 /* Sec3 Class Start */
 .sec1L {
-    width: 70%;
+    width: 80%;
 }
 
 .sec1L img {
@@ -258,26 +262,19 @@ a {
     display: block;
 }
 
-.light {
-    /* border: 1px solid black; */
-    /* background-color:#F2E8E7; */
-    transform: rotate(90deg);
-    transform-origin: 40% 40%;
-    color: #F2E8E7
-}
-
 .lorem {
     width: 70%;
     margin-left: auto;
     padding: 10px 0;
 }
-
+.aboutusL{
+    transform:rotate(-90deg);
+}
 /* [--------this class is for bottom border---------] */
 .bottomline {
     width: 4rem;
     border-bottom: 2px solid #CC9361;
 }
-
 /* Sec3 Class End */
 
 /* sec4 class start */
@@ -287,72 +284,81 @@ a {
 .ourserborder {
     margin: 0 auto;
 }
-td .stroke {
-    border: 2px solid #000;
-}
-.align-right{
-    align-items: right;
-}
 .bookbtn {
     border: 2px solid #CC9361;
     border-radius: 30px;
     padding: 5px 15px;
 }
-
-.sec2R {
-    padding-left: 10px;
+.sec2R{
+    width:80%;
 }
+.sec2R img{
+    width:100%;
+    display: block;
+}
+.servicesL {
+    transform: rotate(90deg);
+}
+/* td .stroke {
+    border: 2px solid #000;
+} */
 /* sec4 class End */
 
 /* sec5 class Start */
-.box{
+.box {
     background-color: #CC9361;
-    color:#F2E8E7;
+    color: #F2E8E7;
     border-radius: 5px;
 }
-.bridalbottom{
+
+.bridalbottom {
     width: 4rem;
     border-bottom: 2px solid #F2E8E7;
 }
-.bridal{
 
-}
+.bridal {}
 
 
 body {
-  background: #eee;
-  font-size: 14px;
-  color: #000;
-  margin: 0;
-  padding: 0;
+    background: #eee;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
 }
 
 .swiper {
-  width: 100%;
-  height: 100%;
+    width: 100%;
+    height: 100%;
 }
 
 .swiper-slide {
-  text-align: center;
-  font-size: 18px;
-  background: #fff;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
 .swiper-slide img {
-  display: block;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
+
 /* sec5 class End */
 
 /* sec6 class Start */
 .exp {
-    width:20%;
+    width: 20%;
 }
 .exp img {
-    width:100%;
+    width: 100%;
 }
 /* sec6 class End */
+
+/* sec7 class Start*/
+
+/* sec7 class End */
