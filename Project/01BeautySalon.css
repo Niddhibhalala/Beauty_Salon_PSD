@@ -1,11 +1,8 @@
-/* Universal class Start*/
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #FFFBF3;
 }
-
 /* Font src Start */
 @font-face {
     font-family: "r-poppins";
@@ -16,7 +13,6 @@
     font-family: "m-poppins";
     src: url(./Img/Font/Poppins-Medium.ttf);
 }
-
 /* Font src End */
 
 /* Container & Col Start */
@@ -84,7 +80,9 @@
 .margin-left {
     margin-left: auto;
 }
-
+.margintob{
+    margin:20px 0;
+}
 .paddingtob {
     padding: 20px 0;
 }
@@ -125,18 +123,6 @@
 }
 
 /* ----- Background color & color class End -----*/
-
-/* -----Font class start------- */
-.m-poppins {
-    font-family: "m-poppins";
-}
-
-.r-poppins {
-    font-family: "r-poppins";
-}
-
-/* -----Font class End------- */
-
 
 /* -----Font style  start -----*/
 .one {
@@ -267,58 +253,53 @@ a {
     margin-left: auto;
     padding: 10px 0;
 }
-.aboutusL{
-    transform:rotate(-90deg);
+
+.aboutusL {
+    transform: rotate(-90deg);
 }
+
 /* [--------this class is for bottom border---------] */
 .bottomline {
     width: 4rem;
     border-bottom: 2px solid #CC9361;
 }
+
 /* Sec3 Class End */
 
 /* sec4 class start */
-.ser-mar-tob {
-    margin: 20px 0;
-}
 .ourserborder {
     margin: 0 auto;
 }
+
 .bookbtn {
     border: 2px solid #CC9361;
     border-radius: 30px;
     padding: 5px 15px;
 }
-.sec2R{
-    width:80%;
+
+.sec2R {
+    width: 90%;
 }
-.sec2R img{
-    width:100%;
+
+.sec2R img {
+    width: 100%;
     display: block;
 }
+
 .servicesL {
     transform: rotate(90deg);
 }
+
 /* td .stroke {
     border: 2px solid #000;
 } */
 /* sec4 class End */
 
 /* sec5 class Start */
-.box {
-    background-color: #CC9361;
-    color: #F2E8E7;
-    border-radius: 5px;
-}
-
 .bridalbottom {
     width: 4rem;
     border-bottom: 2px solid #F2E8E7;
 }
-
-.bridal {}
-
-
 body {
     background: #eee;
     font-size: 14px;
@@ -351,14 +332,41 @@ body {
 /* sec5 class End */
 
 /* sec6 class Start */
-.exp {
-    width: 20%;
-}
-.exp img {
+.expic img {
     width: 100%;
+    display: block;
 }
 /* sec6 class End */
 
 /* sec7 class Start*/
-
 /* sec7 class End */
+
+/* sec8 class Start*/
+.paingtb {
+    padding: 5px 0
+}
+.Passionate {
+    width: 50%;
+}
+.Passionate img {
+    width: 100%;
+    display: block;
+}
+/* sec8 class End */
+
+/* sec9 class Start */
+.sec9{
+    background-image: url(./Img/attachment.png);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center ;
+}
+.excourse{
+    width:50%;
+    margin:0 auto;
+}
+.excorline{
+    width: 4rem;
+    border-bottom: 2px solid #F2E8E7;
+}
+/* sec9 class End */
