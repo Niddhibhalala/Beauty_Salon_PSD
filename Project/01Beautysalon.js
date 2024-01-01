@@ -15,12 +15,30 @@ var swiper = new Swiper(".mySwiper", {
     }
 });
 
+// sec5 start
+$(document).ready(function(){
+    $("#hide").click(function(){
+      $("p").hide();
+    });
+    $("#show").click(function(){
+      $("p").show();
+    });
+  });
+  
 var swiper = new Swiper(".mySwiper", {
     slidesPerView: 4,
     spaceBetween: 30,
-    centeredSlides: true,
     pagination: {
-        el: ".swiper-pagination",
-        clickable: true,
+      el:".swiper-pagination",
+      clickable: true,
     },
+  });
+// sec5 End
+
+// sec10 start
+var swiper = new Swiper(".mySwiper", {
+  pagination: {
+    el: ".swiper-pagination",
+    // dynamicBullets: true,
+  },
 });
