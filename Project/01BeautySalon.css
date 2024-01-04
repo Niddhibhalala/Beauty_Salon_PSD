@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 /* Font src Start */
 @font-face {
     font-family: "r-poppins";
@@ -13,6 +14,7 @@
     font-family: "m-poppins";
     src: url(./Img/Font/Poppins-Medium.ttf);
 }
+
 /* Font src End */
 
 /* Container & Col Start */
@@ -24,14 +26,24 @@
 .col20 {
     width: 20%;
 }
-.col30{
-    width:30%;
+
+.col30 {
+    width: 30%;
 }
+
+.col35 {
+    width: 35%;
+}
+
 .col40 {
     width: 40%;
 }
+
 .col50 {
     width: 50%;
+}
+.col70{
+    width: 70%;
 }
 
 .col80 {
@@ -81,9 +93,11 @@
 .margin-left {
     margin-left: auto;
 }
-.margintob{
-    margin:20px 0;
+
+.margintob {
+    margin: 20px 0;
 }
+
 .paddingtob {
     padding: 20px 0;
 }
@@ -213,7 +227,6 @@ a {
 /* Sec1 Class End */
 
 /* sec2 Class Start */
-
 /* sec2 Class End */
 
 /* Sec3 Class Start */
@@ -275,21 +288,25 @@ a {
 
 /* sec5 class Start */
 .bridal,
-.bridal1{
-    width:10%;
+.bridal1 {
+    width: 10%;
 }
+
 .bridal img,
-.bridal1 img{
-    width:100%;
+.bridal1 img {
+    width: 100%;
     display: block;
 }
-.bridal1{
+
+.bridal1 {
     /* right:5rem; */
 }
+
 .bridalbottom {
     width: 4rem;
     border-bottom: 2px solid #F2E8E7;
 }
+
 /* html,
 body {
   position: relative;
@@ -333,102 +350,188 @@ body {
     width: 100%;
     display: block;
 }
+
 /* sec6 class End */
 
 /* sec7 class Start*/
+.banneri2{
+    width:80%;
+}
+.banneri2 img{
+    width:100%;
+}
+.flower{
+    background-image: url(./Img/banneri1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 2px 250px 2px 250px;
+}
+.Distxt{
+    width:30%;
+    padding:10px 20px;
+    border-radius: 5px;
+}
 /* sec7 class End */
 
 /* sec8 class Start*/
 .paingtb {
     padding: 5px 0
 }
+
 .Passionate {
     width: 40%;
 }
+
 .Passionate img {
     width: 100%;
     display: block;
 }
+
 /* sec8 class End */
 
 /* sec9 class Start */
-.sec9{
+.sec9 {
     background-image: url(./Img/attachment.png);
     background-attachment: fixed;
-    background-position: center ;
-    background-size:cover;
+    background-position: center;
+    background-size: cover;
 }
-.excourse{
-    width:50%;
-    margin:0 auto;
+
+.excourse {
+    width: 50%;
+    margin: 0 auto;
 }
-.excorline{
+
+.excorline {
     width: 4rem;
     border-bottom: 2px solid #F2E8E7;
 }
+
 .expic2_1 {
     bottom: 10px;
-} 
-.expic2_2{
-    bottom:0px;
 }
-.comboN{
-    top:55px;
-    left:50px;
+
+.expic2_2 {
+    bottom: 0px;
 }
-.arrow{
+
+.comboN {
+    top: 55px;
+    left: 50px;
+}
+
+.arrow {
     border-radius: 50px;
-    padding:15px 18px;
+    padding: 15px 18px;
 }
+
 /* sec9 class End */
 
 /* sec10 class Start */
 body {
-  /* background: #eee; */
-  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  color: #000;
-  /* margin: 0; */
-  /* padding: 0; */
+    /* background: #eee; */
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
 }
 
 .swiper {
-  width: 100%;
-  /* height: 100%; */
+    width: 100%;
 }
 
 .swiper-slide {
-  text-align: center;
-  font-size: 18px;
-  /* background: #fff; */
-  /* display: flex; */
-  /* justify-content: center;
-  align-items: center; */
+    text-align: center;
+    font-size: 18px;
 }
 
 .swiper-slide img {
-  display: block;
-  width: 100%;
-  /* height: 100%; */
-  object-fit: cover;
+    display: block;
+    width: 100%;
+    object-fit: cover;
 }
-.box1{
-    border-radius:20px ;
+
+.box1 {
+    border-radius: 20px;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
-.box1 p{
-    width:80%;
-    margin:0 auto;
+
+.box1 p {
+    width: 70%;
+    margin: 0 auto;
 }
-.box2{
-    border-radius:10px ;
+
+.box2 {
+    border-radius: 10px;
 }
-.box2 p{
-    width:70%;
-    margin:0 auto;
+
+.box2 p {
+    width: 70%;
+    margin: 0 auto;
 }
-.padding{
-    padding:0 5px;
+
+.padding {
+    padding: 0 5px;
 }
 
 /* sec10 class End */
+
+/* sec11 class start */
+.counter {
+    background-image: url(./Img/bgcounter.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+/* sec11 class End */
+
+/* sec12 start */
+.Appoint {
+    background-color: #FFFBF3;
+    border-radius: 10px;
+    padding: 30px 10px;
+}
+
+.commonAppoin {
+    border-radius: 5px;
+    border: none;
+    padding: 20px;
+}
+
+.Fname {
+    width: 40%;
+}
+
+.Mobile,
+.Email,
+.selcour {
+    width: 80%;
+}
+
+.Submitbtn {
+    border-radius: 20px;
+    border: 2px solid #CC9361;
+    padding: 10px 30px;
+}
+.Eilipse1{
+    top:-90px;
+    right:0;
+}
+.Appointpic {
+    display: block;
+    margin: 0 auto;
+    width: 70%;
+}
+.Appointpic img {
+    width: 100%;
+}
+
+/* sec12 End */
+
+/* Footer sec13 Start */
+.marginLR{
+    margin:0 20px;
+}
+/* Footer sec13 End */

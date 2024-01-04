@@ -37,6 +37,7 @@ var swiper = new Swiper(".mySwiper", {
 
 // sec10 start
 var swiper = new Swiper(".mySwiper", {
+  spaceBetween:30,
   pagination: {
     el: ".swiper-pagination",
     // dynamicBullets: true,
