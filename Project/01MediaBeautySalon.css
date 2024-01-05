@@ -1,0 +1,155 @@
+.container{
+    width:1200px;
+    margin:0 auto;
+}
+
+/* Media Query (min-width) 567px start */
+@media(min-width:567px) {
+    .container {
+        width: 525px;
+    }
+
+    .col20,
+    .col30,
+    .col35,
+    .col40,
+    .col50,
+    .col70,
+    .col80,
+    .col100 {
+        width: 100%;
+    }
+
+    .col20,
+    .col30{
+        text-align: center;
+    }
+
+    html {
+        font-size: 50%;
+    }
+
+}
+/* Media Query (min-width) 567px End */
+
+/* Media Query (min-width) 762px start */
+@media(min-width:762px) {
+    .container {
+        width: 720px;
+    }
+
+    .col20 {
+        width: 20%;
+    }
+    
+    .col30 {
+        width: 30%;
+    }
+    
+    .col35 {
+        width: 35%;
+    }
+    
+    .col40 {
+        width: 40%;
+    }
+    
+    .col50 {
+        width: 50%;
+    }
+    .col70{
+        width: 70%;
+    }
+    
+    .col80 {
+        width: 80%;
+    }
+    
+    .col100 {
+        width: 100%;
+    }
+}
+/* Media Query (min-width) 762px End */
+
+/* Media Query (min-width) 992px start */
+
+@media(min-width:992px) {
+    .container {
+        width: 950px;
+    }
+
+    .col20 {
+        width: 20%;
+    }
+    
+    .col30 {
+        width: 30%;
+    }
+    
+    .col35 {
+        width: 35%;
+    }
+    
+    .col40 {
+        width: 40%;
+    }
+    
+    .col50 {
+        width: 50%;
+    }
+    .col70{
+        width: 70%;
+    }
+    
+    .col80 {
+        width: 80%;
+    }
+    
+    .col100 {
+        width: 100%;
+    }
+        /* Toggle Button */
+    .menu {
+        display: none;
+    }
+}
+/* Media Query (min-width) 992px End */
+
+/* Media Query (min-width) 1200px start */
+@media(min-width:1200px) {
+    .container {
+        width: 1160px;
+    }
+
+    .col20 {
+        width: 20%;
+    }
+    
+    .col30 {
+        width: 30%;
+    }
+    
+    .col35 {
+        width: 35%;
+    }
+    
+    .col40 {
+        width: 40%;
+    }
+    
+    .col50 {
+        width: 50%;
+    }
+    .col70{
+        width: 70%;
+    }
+    
+    .col80 {
+        width: 80%;
+    }
+    
+    .col100 {
+        width: 100%;
+    }
+}
+/* Media Query (min-width) 1200px End */
