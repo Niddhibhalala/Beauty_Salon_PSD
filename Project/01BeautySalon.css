@@ -227,6 +227,62 @@ a {
 /* Sec1 Class End */
 
 /* sec2 Class Start */
+.bg1{
+    background-image: url(./Img/banner1.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.bannerleft{
+    width: 10%;
+} 
+.banner img{
+    width: 100%;
+}
+
+.bannerright{
+    width:10%;
+}
+
+.banner img{
+    width:100%;
+}
+
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
 /* sec2 Class End */
 
 /* Sec3 Class Start */
@@ -298,7 +354,7 @@ a {
     display: block;
 }
 
-.bridal1 {
+.bridal1     {
     /* right:5rem; */
 }
 
@@ -355,22 +411,35 @@ body {
 
 /* sec7 class Start*/
 .banneri2{
-    width:80%;
+    width: 80%;
 }
 .banneri2 img{
     width:100%;
 }
 .flower{
     background-image: url(./Img/banneri1.png);
-    background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
     border-radius: 2px 250px 2px 250px;
 }
 .Distxt{
     width:30%;
     padding:10px 20px;
     border-radius: 5px;
+}
+.startinget{
+    text-align: center;
+
+}
+.inpget{
+    border : none ;
+    padding: 5px  15px;
+    border-radius: 5px;
+}
+.getst{
+    padding: 5px 15px;
+    border-radius: 15px ;
+    border:none ;
+    margin: -10px;
 }
 /* sec7 class End */
 
