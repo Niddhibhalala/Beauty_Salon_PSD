@@ -42,7 +42,8 @@
 .col50 {
     width: 50%;
 }
-.col70{
+
+.col70 {
     width: 70%;
 }
 
@@ -221,65 +222,83 @@ a {
 
 .butotnJoin1:hover {
     background-color: #CC9361;
-    color: #FFFBF3; 
+    color: #FFFBF3;
 }
 
 /* Sec1 Class End */
 
 /* sec2 Class Start */
-.bg1{
+.bg1 {
     background-image: url(./Img/banner1.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
-.bannerleft{
-    width: 20%;
-} 
-.bannerleft img{
+.slidebod1h{
+    width:30%;
+    border: 10px solid #CC9361;
+    border-radius: 10px;
+}
+.slidebod2h{
+    top:30px;
+    /* transform: /; */
+    border-right: 10px solid #CC9361;
+    width:30%;
+    border-radius: 10px;
+    /* display: flex; */
+    /* flex-direction: column; */
+}
+.bannerleft {
+    /* width: 50%; */
+}
+
+.bannerleft img {
     width: 100%;
 }
-.banner1L{
-    left:20px;
-    top:20px;
-}
-.NOWJoin{
+
+/* .banner1L {
+    left: 20px;
+    top: 20px;
+} */
+
+.NOWJoin {
     border: 2px solid #F2E8E7;
     border-radius: 8px;
 }
+
 html,
 body {
-  /* position: relative; */
-  /* height: 100%; */
+    /* position: relative; */
+    /* height: 100%; */
 }
 
 body {
-  /* background: #eee; */
-  /* font-family: Helvetica Neue, Helvetica, Arial, sans-serif; */
-  /* font-size: 14px; */
-  /* color: #000; */
-  /* margin: 0; */
-  /* padding: 0; */
+    /* background: #eee; */
+    /* font-family: Helvetica Neue, Helvetica, Arial, sans-serif; */
+    /* font-size: 14px; */
+    /* color: #000; */
+    /* margin: 0; */
+    /* padding: 0; */
 }
 
 .swiper {
-  width: 100%;
-  /* height: 100%; */
+    width: 100%;
+    /* height: 100%; */
 }
 
 .swiper-slide {
-  /* text-align: center; */
-  font-size: 18px;
-  /* background: #fff; */
-  /* display: flex; */
-  /* justify-content: center; */
-  /* align-items: center; */
+    /* text-align: center; */
+    font-size: 18px;
+    /* background: #fff; */
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
 }
 
 .swiper-slide img {
-  display: block;
-  width: 100%;
-  /* height: 100%; */
-  object-fit: cover;
+    display: block;
+    width: 100%;
+    /* height: 100%; */
+    object-fit: cover;
 }
 
 /* sec2 Class End */
@@ -353,7 +372,7 @@ body {
     display: block;
 }
 
-.bridal1     {
+.bridal1 {
     /* right:5rem; */
 }
 
@@ -409,36 +428,66 @@ body {
 /* sec6 class End */
 
 /* sec7 class Start*/
-.banneri2{
-    width: 80%;
+.sec7 {
+    z-index: 0;
+    padding:70px 0;
 }
-.banneri2 img{
-    width:100%;
+.banneri2 {
+    width: 22%;
 }
-.flower{
+
+.banneri2 img {
+    width: 100%;
+}
+
+.flower {
     background-image: url(./Img/banneri1.png);
     background-repeat: no-repeat;
     border-radius: 2px 250px 2px 250px;
+    margin-left: 10%;
 }
-.Distxt{
-    width:30%;
-    padding:10px 20px;
-    border-radius: 5px;
+.star1 {
+    right:30px;    
+    top:0px;
 }
-.startinget{
+.border {
+    border-radius: 213px;
+    border: 1px solid var(--cc-936170, #CC9361);
+    width: 70%;
+    height: 70%;
+    transform: rotate(-12.721deg);
+    position: absolute;
+    right: 171px;
+    bottom: -16.863px;
+    z-index: -1;
+    margin: 50px 0;
+}
+.Distxt p {
+    width: 50%;
+    margin: 20px 0;
+    padding: 20px 25px;
+    border-radius: 8px;
     text-align: center;
+}
 
+.inpget {
+    border: none;
+    padding: 5px 30px;
+    border-radius: 10px;
+    outline: none;
+    margin-left: 25px;
 }
-.inpget{
-    border : none ;
-    padding: 5px  15px;
-    border-radius: 5px;
-}
-.getst{
+
+.getst {
     padding: 5px 15px;
-    border-radius: 15px ;
-    border:none ;
-    margin: -10px;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+    margin-left: -20px;
+}
+
+.star2{
+
 }
 /* sec7 class End */
 
@@ -583,15 +632,18 @@ body {
     border: 2px solid #CC9361;
     padding: 10px 30px;
 }
-.Eilipse1{
-    top:-90px;
-    right:0;
+
+.Eilipse1 {
+    top: -90px;
+    right: 0;
 }
+
 .Appointpic {
     display: block;
     margin: 0 auto;
     width: 70%;
 }
+
 .Appointpic img {
     width: 100%;
 }
@@ -599,7 +651,8 @@ body {
 /* sec12 End */
 
 /* Footer sec13 Start */
-.marginLR{
-    margin:0 20px;
+.marginLR {
+    margin: 0 20px;
 }
+
 /* Footer sec13 End */
