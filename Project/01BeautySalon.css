@@ -233,73 +233,56 @@ a {
     background-repeat: no-repeat;
     background-size: cover;
 }
-.slidebod1h{
-    width:30%;
-    border: 10px solid #CC9361;
-    border-radius: 10px;
-}
-.slidebod2h{
-    top:30px;
-    /* transform: /; */
-    border-right: 10px solid #CC9361;
-    width:30%;
-    border-radius: 10px;
-    /* display: flex; */
-    /* flex-direction: column; */
-}
-.bannerleft {
-    /* width: 50%; */
+
+.stroke1 {
+    left: 0;
 }
 
-.bannerleft img {
+.stroke2 {
+    top: 0;
+}
+
+.collageinterior {
+    margin: 15px 15px;
+    padding: 15px 15px;
+}
+
+.collageinterior img {
     width: 100%;
 }
 
-/* .banner1L {
-    left: 20px;
-    top: 20px;
-} */
+.bgoneheading p,
+button {
+    margin: 10px 0;
+    padding: 10px 0;
+}
 
+.your {
+    left: 140px;
+    top: 80px;
+}
+.bannerright{
+    bottom: 30px;
+    right: 30px;
+}
+.stroke3{
+    right: 0;
+}
+.stroke4{
+    bottom: 0;
+}
 .NOWJoin {
+    background: none;
+    color: #F2E8E7;
     border: 2px solid #F2E8E7;
-    border-radius: 8px;
+    border-radius: 10px;
+    padding: 5px 15px;
+    margin: 10px 0;
 }
-
-html,
-body {
-    /* position: relative; */
-    /* height: 100%; */
-}
-
-body {
-    /* background: #eee; */
-    /* font-family: Helvetica Neue, Helvetica, Arial, sans-serif; */
-    /* font-size: 14px; */
-    /* color: #000; */
-    /* margin: 0; */
-    /* padding: 0; */
-}
-
-.swiper {
-    width: 100%;
-    /* height: 100%; */
-}
-
-.swiper-slide {
-    /* text-align: center; */
-    font-size: 18px;
-    /* background: #fff; */
-    /* display: flex; */
-    /* justify-content: center; */
-    /* align-items: center; */
-}
-
-.swiper-slide img {
+/* .swiper-slide img {
     display: block;
-    width: 100%;
-    /* height: 100%; */
     object-fit: cover;
-}
+} */
 
 /* sec2 Class End */
 
@@ -430,10 +413,11 @@ body {
 /* sec7 class Start*/
 .sec7 {
     z-index: 0;
-    padding:70px 0;
+    padding: 70px 0;
 }
+
 .banneri2 {
-    width: 22%;
+    width: 23%;
 }
 
 .banneri2 img {
@@ -446,10 +430,12 @@ body {
     border-radius: 2px 250px 2px 250px;
     margin-left: 10%;
 }
+
 .star1 {
-    right:30px;    
-    top:0px;
+    right: 30px;
+    top: 0px;
 }
+
 .border {
     border-radius: 213px;
     border: 1px solid var(--cc-936170, #CC9361);
@@ -462,6 +448,7 @@ body {
     z-index: -1;
     margin: 50px 0;
 }
+
 .Distxt p {
     width: 50%;
     margin: 20px 0;
@@ -486,9 +473,8 @@ body {
     margin-left: -20px;
 }
 
-.star2{
+.star2 {}
 
-}
 /* sec7 class End */
 
 /* sec8 class Start*/

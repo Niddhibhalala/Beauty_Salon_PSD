@@ -17,13 +17,13 @@
 
 // sec2 Start
 var swiper = new Swiper(".mySwiper", {
-  slidesPerView: 4,
-  spaceBetween: 30,
-  // pagination: {
-    // el: ".swiper-pagination",
-    // clickable: true,
+  // slidesPerView: 4,
+  // spaceBetween: 30,
+  pagination: {
+    el: ".swiper-pagination",
+    dynamicBullets: true,
   },
-);
+});
 
 // sec5 start
 $(document).ready(function () {
